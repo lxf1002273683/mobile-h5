@@ -1,0 +1,13 @@
+@import './reset.scss';
+@import './utils.scss';
+
+.main {
+  min-height: 100vh;
+  @include font-dpr(14);
+  overflow: hidden;
+}
+
+[data-dpr="1"] .main {
+  margin: 0 auto;
+  max-width: 540px;
+}
