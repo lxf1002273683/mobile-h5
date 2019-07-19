@@ -44,10 +44,10 @@ export default {
     // this.AppJsBridge.setAlertContent('提示','退出')
     
     // let a =  new AppJsBridge.AppJsBridge()
-    this.$Toast.show('213', {
-      type: 'input',
-      timeout: 20000,
-    })
+    // this.$Toast.show('213', {
+    //   type: 'input',
+    //   timeout: 20000,
+    // })
     // let a = new Date('2019-1-02')
     // console.log(this.getCalendarData(a.getFullYear(), a.getMonth()))
   },
